@@ -15,13 +15,19 @@ nav{
     margin-top: 2.5em;
 }
 
+div#logo{
+    display: inline-block;
+    margin-right: 2em;
+}
+
 :any-link{
-    border-radius: 150%;
+    border-radius: 100px;
     color: #181414;
     font-style:normal;
     margin-right: .5em;
     margin-left: .5em;
-    background-color: #f8f7f7;
+    background-color: #ecebeb;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1em 1.2em;
     text-align: center;
     font-size: 14px;
@@ -43,16 +49,38 @@ main{
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 15%;
-    margin-bottom: 15%;
 }/*credentials-header*/
 
-section{
-    margin-top: 15%;
+section.Credentials-card{
+    margin-top: 10%;
     text-align: left;
-    margin-right: 50%;
-    margin-left: 1%;
-}/*Bachelors degree text*/
+    display: inline-block;
+    position: relative;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px; 
+    height: 320px;
+    width: 500px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
 
+.item-card {
+    position: relative;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px; 
+    height: 320px;
+    width: 200px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
 
 h2{
     text-align:center;
@@ -76,24 +104,37 @@ p{
     margin-inline-end: 0vw;
 }
 
-.contact-header{
-margin-top: 15%;
-margin-bottom: 0%;
-text-align: center;
-font-size: 1.8rem;
+form{
+    margin-top: 7%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 1.8rem;
+    position: relative;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    width: 400px;
+    overflow: hidden;
+    display: inline-block;
 }
 
-input{
+input[type="email"]{
     display: flex;
     /*margin-bottom: 1%;*/
-    text-align: center;
+    text-align: left;
     margin-top: .5%;
     font-size: 1.4rem;
+    
 }
 
 textarea{
-font-size: 1.4rem;
-margin-top: .5%;
+    font-size: 1.4rem;
+    margin-top: .5%;
+    text-align: left;
+    display: block;
+    width: 100%;
 }
 
 label{
@@ -107,17 +148,29 @@ label{
     margin-top: 3.5%;
 }
 
-button{
-    background-color: #f8f7f7;
+input[type="submit"]{
+    background-color: #fffcfc;
     padding: 1em 1.2em;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     font-size: 14px;
     border: none;
     text-decoration: none;
     color: black;
     margin-bottom: 40%;
-    margin-top: 1.7%;
+    margin-top: 5%;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+div#success-message {
+    display: none;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: .5%;
+    margin-bottom: 2%;
 }
 
 footer{
@@ -127,5 +180,5 @@ footer{
     margin-left: 10%;
     margin-right: 20%;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
