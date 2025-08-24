@@ -15,9 +15,16 @@ nav{
     margin-top: 2.5em;
 }
 
-div#logo{
+#logo{
     display: inline-block;
     margin-right: 2em;
+}
+
+img{
+  width: 140px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 15px;
 }
 
 :any-link{
@@ -43,16 +50,16 @@ html{
 }
 
 main{
-    font-size: larger;
+    font-size: large;
     font-style:oblique;
     text-align:center;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 15%;
+    margin-top: 10%;
 }/*credentials-header*/
 
 section.Credentials-card{
-    margin-top: 10%;
+    margin-top: 8%;
     text-align: left;
     display: inline-block;
     position: relative;
@@ -68,32 +75,85 @@ section.Credentials-card{
     overflow: hidden;
 }
 
-.item-card {
-    position: relative;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    flex: 1 1 200px; 
-    height: 320px;
-    width: 200px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    overflow: hidden;
+.Credentials-card:hover {
+  transform: scale(1.1);
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  
+  scrollbar-width: thin;
+  overflow-x: hidden;
+  overflow-y:scroll;
 }
 
-h2{
-    text-align:center;
+.Business-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+.Software-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+#FEMA-img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.FEMA-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#left-arrow{
+  width: 24px;
+  height: 24px;
+background-color: whitesmoke;
+border-color: #181414;
+margin-left: 150%;
+position: relative;
+}
+
+#right-arrow{
+  width: 24px;
+  height: 24px;
+background-color: whitesmoke;
+border-color: #181414;
+margin-right: 150%;
+position: relative;
+}
+
+#left-arrow:hover, #right-arrow:hover{
+  background-color: #ecebeb;
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+/*#prev-btn:hover, #next-btn:hover {
+  background: #eee;
+}*/
+
+#prev-btn, #next-btn {
+  width: 40px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 h4{
     display: inline-block;
-}
-
-section h2{
-    display: block;
-    font-size: larger;
-    text-align: center;
 }
 
 p{
@@ -105,7 +165,7 @@ p{
 }
 
 form{
-    margin-top: 7%;
+    margin-top: 1%;
     margin-bottom: 0%;
     text-align: center;
     font-size: 1.8rem;
@@ -162,6 +222,11 @@ input[type="submit"]{
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+input[type="submit"]:hover{
+    background-color: #ecebeb;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 div#success-message {
@@ -177,8 +242,17 @@ footer{
     text-align: center;
     height: auto; 
     width: 80vw;
-    margin-left: 10%;
-    margin-right: 20%;
+    margin-left: 7.5%;
+    margin-right: 0%;
     margin-bottom: 5%;
-    margin-top: 15%;
+    margin-top: 25%;
+}
+.media-link{
+    width: 70px;
+    height: auto;
+}
+
+.media-link:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
