@@ -29,8 +29,8 @@
 
 <main>
   <div class="contact-form">
-    <h2>Keep In Touch</h2>
-    <p>Feel free to reach out with any questions or inquiries!</p>
+    <h1>Keep In Touch</h1>
+    <h2>Feel free to reach out with any questions or inquiries!</h2>
 
 
   <form id="contact-form" enctype="text/plain">
@@ -48,7 +48,7 @@
 <script>
 document.getElementById('contact-form').addEventListener('submit', function(e) {
   e.preventDefault();
-  fetch('http://localhost:3000/contact', {
+  fetch('http://localhost:3000', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
