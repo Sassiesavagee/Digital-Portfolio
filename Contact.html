@@ -13,7 +13,7 @@
   <header>
     <nav>
         <div id="logo">
-            <img src="Portfolio Profile Pic.JPG" width="140" height="150">
+            <img src="Portfolio Profile Pic.JPG" width="140" height="150" alt="Profile Picture">
         </div>
 
     <div id="links">
@@ -33,17 +33,21 @@
     <h2>Feel free to reach out with any questions or inquiries!</h2>
 
 
-  <form id="contact-form" enctype="text/plain">
-        <label for="E-mail">E-mail:</label>
+  <form id="contact-form">
+        <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" required/>
-        <label for="Message">Message:</label>
+        <label for="message">Message:</label>
         <textarea id="message" name="message" rows="5" cols="40" required></textarea>
-        <input type="submit" value="Send Message">
+        <button type="submit">Send</button>
   </form>
 
   <div id="success-message" style="display:none; color:green; font-weight:bold;">
     Thank you! Your message has been sent successfully!
   </div>
+  <div id='error-message' style="display:none; color:red; font-weight:bold;">
+    Sorry, there was an error sending your message. Please try again later.
+  </div> 
+
 
 <script>
 document.getElementById('contact-form').addEventListener('submit', function(e) {
