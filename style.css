@@ -28,18 +28,18 @@ img{
 }
 
 :any-link{
-    border-radius: 100px;
-    color: #181414;
-    font-style:normal;
-    margin-right: .5em;
-    margin-left: .5em;
-    background-color: #ecebeb;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1em 1.2em;
-    text-align: center;
-    font-size: 21px;
-    margin-bottom: 1%;
-    display: inline-block;
+  border-radius: 100px;
+  color: #181414;
+  font-style:normal;
+  margin-right: .5em;
+  margin-left: .5em;
+  background-color: #ecebeb;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1em 1.2em;
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 1%;
+  display: inline-block;
 }
 
 html{
@@ -74,20 +74,19 @@ section.Credentials-card{
     background-color: #f0f0f0;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.308);
     flex: 1 1 200px; 
     height: 600px;
     width: 880px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    overflow: hidden;
     margin-left: 24.5%;
 }
 
 .Credentials-card:hover {
   transform: scale(1.1);
   transform: translateY(-5px);
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.308);
   cursor: pointer;
   
   scrollbar-width: thin;
@@ -234,23 +233,83 @@ object{
     font-size: 21px;
     margin-bottom: 1%;
     display: inline-block;
-  
+}
+
+div.Projects-container{
+  column-count: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+  margin-top: 5%;
+  margin-left: 18%;
+  margin-right: 18%;
+  gap: 25px;
 }
 
 section.Projects-card{
-    margin-top: 8%;
     text-align: left;
     position: center;
     background-color: #f0f0f0;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    height: 300px;
-    width: 800px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.308);
+    flex: 1 1 200px; 
+    height: auto;
+    width: auto;
     overflow: hidden;
     transition: transform 0.3s ease;
-    overflow: hidden;
-    
+    /*margin-left: 24.5%;*/
+}
+
+section.Projects-card:hover {
+  /*transform: scale(1.05);
+  transform: translateY(-5px);*/
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.308);
+  cursor: pointer;
+}
+
+.Puppy-img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  margin-left: .5%;
+}
+
+#Pups-Link{
+width: 15%;
+height: auto;
+background-color: whitesmoke;
+border-radius: 8px;
+border-color: whitesmoke;
+}
+
+#Pups-Link:hover{
+transform: scale(1.2);
+transition: transform 0.3s ease;
+}
+
+.Auth-img{
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  margin-left: 8%;
+}
+
+.Project-img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  margin-left: 5%;
+}
+
+.Projects-text{
+    font-size: 1.6rem;
+    text-align: left;
+    display: inline-table;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 form{
@@ -275,7 +334,6 @@ input[type="email"]{
     text-align: left;
     margin-top: .5%;
     font-size: 1.5rem;
-    
 }
 
 textarea{
@@ -311,12 +369,13 @@ button[type="submit"]{
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-
 }
+
 button[type="submit"]:hover{
     background-color: #ecebeb;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
 }
+
 
 div#success-message {
     display: none;
@@ -334,7 +393,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .media-link{
     width: 70px;
