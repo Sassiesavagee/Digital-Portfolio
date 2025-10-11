@@ -272,7 +272,7 @@ section.Projects-card:hover {
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s ease;
-  margin-left: .5%;
+  margin-left: .25%;
 }
 
 #Pups-Link{
@@ -294,6 +294,14 @@ transition: transform 0.3s ease;
   border-radius: 8px;
   transition: transform 0.3s ease;
   margin-left: 8%;
+}
+
+.Portfolio-img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  margin-left: .25%;
 }
 
 .Project-img{
