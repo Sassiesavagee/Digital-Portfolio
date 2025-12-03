@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="...">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title data-i18n="projects.title">Projects</title>
     
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
@@ -17,18 +17,31 @@
       </div>
 
       <div id="links">
-        <a href="Welcome.html">Home</a>
-        <a href="Credentials.html">Credentials</a>
-        <a href="Resumes.html">Resumes</h4></a>
-        <a class="active" href="Projects.html">Projects</a>
-        <a href="Contact.html">Contact</a>
-        </div>
+        <a data-i18n="nav.home" href="Welcome.html">Home</a>
+        <a data-i18n="nav.credentials" href="Credentials.html">Credentials</a>
+        <a data-i18n="nav.resumes" href="Resumes.html">Resumes</h4></a>
+        <a data-i18n="nav.projects" class="active" href="Projects.html">Projects</a>
+        <a data-i18n="nav.contact" href="Contact.html">Contact</a>
+      </div>
+
+<img class="langIcon" src="language-learning.png" alt="Language Selector">
+  <select id="localeSwitcher">
+    <option value="en">English</option>
+    <option value="zh-CN">中文（简体）</option>
+    <option value="ko">한국어</option>
+    <option value="es">Español</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="ja">日本語</option>
+    <option value="it">Italiano</option>
+  </select>
+
     </nav>
   </header>
 
 <main>
   <div id="projects-header">
-      <h1>Previous and Upcoming Work</h1>
+      <h1 data-i18n="projects.subtitle">Previous and Upcoming Work</h1>
   </div>
 
 <div class="Projects-container">
@@ -36,8 +49,8 @@
   <section class="Projects-card">
   <img class="Puppy-img" src="Puppy Bowl Project.jfif" alt="Puppy Bowl Project">
   <div class="Projects-description"></div>
-      <h2>Puppy Bowl</h2>
-      <p class="Projects-text">The objective of this project was to extract the data of each player from the API. Transfer the given data onto the app, where it is visible and functional for the user. This app allows the user to create a new player, add an image, delete any player, and see the details of all players. This project contains the following coding practices: React.js, Element queries, Template and Rendering.</p>
+      <h2 data-i18n="projects.project1.header">Puppy Bowl</h2>
+      <p data-i18n="projects.project1.description" class="Projects-text">The objective of this project was to extract the data of each player from the API. Transfer the given data onto the app, where it is visible and functional for the user. This app allows the user to create a new player, add an image, delete any player, and see the details of all players. This project contains the following coding practices: React.js, Element queries, Template and Rendering.</p>
       <a href="https://pupsforlife.netlify.app/">Click Here to View!
         <img id="Pups-Link" src="pets.png" alt=" Puppy Bowl Link">
       </a>
@@ -46,34 +59,65 @@
   <section class="Projects-card">
   <img class="Auth-img" src="Authinticator App.png" alt="Authinticator App">
   <div class="Projects-description"></div>
-      <h2>Authenticator App</h2>
-      <p class="Projects-text">I built an authenticator to ensure the users have appropriate permissions to access the app. This project required me to build a backend API that handles the authentication requests. Which also doubled as a secure storage location for usernames and passwords.</p>
+      <h2 data-i18n="projects.project2.header">Authenticator App</h2>
+      <p data-i18n="projects.project2.description" class="Projects-text">I built an authenticator to ensure the users have appropriate permissions to access the app. This project required me to build a backend API that handles the authentication requests. Which also doubled as a secure storage location for usernames and passwords.</p>
   </section>
 
   <section class="Projects-card">
   <img class="Portfolio-img" src="Screenshot of portfolio.png" alt="Digital Portfolio">
   <div class="Projects-description"></div>
-      <h2>Digital Portfolio</h2>
-      <p class="Projects-text">This project contains the following coding practices: HTML, CSS, and JavaScript. This portfolio is designed to be visually appealing and easy to navigate, with a focus on showcasing my work in a professional manner.</p>
+      <h2 data-i18n="projects.project3.header">Digital Portfolio</h2>
+      <p data-i18n="projects.project3.description" class="Projects-text">This project contains the following coding practices: HTML, CSS, and JavaScript. This portfolio is designed to be visually appealing and easy to navigate, with a focus on showcasing my work in a professional manner.</p>
   </section>
 
   <section class="Projects-card">
   <img class="Project-img" src="Project3.png" alt="Coming Soon">
   <div class="Projects-description"></div>
-      <h2>Upcoming Project - Resturant Website</h2>
-      <p class="Projects-text"> This website was contracted by a client for a new resturant they are opening. The goal for this website is to attract new customers and gain online credibility. The site will include high-quality photos of menu options, an SEO-friendly menu, and an easy-to-use online ordering system.</p>
+      <h2 data-i18n="projects.project4.header">Upcoming Project - Resturant Website</h2>
+      <p data-i18n="projects.project4.description" class="Projects-text"> This website was contracted by a client for a new resturant they are opening. The goal for this website is to attract new customers and gain online credibility. The site will include high-quality photos of menu options, an SEO-friendly menu, and an easy-to-use online ordering system.</p>
   </section>
 
   <section class="Projects-card">
   <img class="Project-img" src="Project4.png" alt="Coming Soon">
   <div class="Projects-description"></div>
-      <h2>Upcoming Project - Mobile App</h2>
-      <p class="Projects-text">The mobile app will serve as an engaging digital storefront. Including features such as 360 product viewing, and online purchasing.</p>
+      <h2 data-i18n="projects.project5.header">Upcoming Project - Mobile App</h2>
+      <p data-i18n="projects.project5.description" class="Projects-text">The mobile app will serve as an engaging digital storefront. Including features such as 360 product viewing, and online purchasing.</p>
   </section>
+
+
+<script>
+let translations = {};
+
+async function loadLocale(locale) {
+  document.documentElement.lang = locale;
+
+  const res = await fetch(`locales/${locale}.json`);
+  translations = await res.json();
+  render();
+}
+
+function t(key) {
+  return translations[key] || key;
+}
+
+function render() {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    el.textContent = t(key);
+  });
+}
+
+document.getElementById("localeSwitcher").addEventListener("change", e => {
+  loadLocale(e.target.value);
+});
+
+// Load default language
+loadLocale("en");
+</script>
 
 </main>
 
 
 
 
-  </body>
+</body>

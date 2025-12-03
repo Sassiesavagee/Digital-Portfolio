@@ -1,0 +1,59 @@
+{
+  "welcome.title": "欢迎",
+
+  "nav.home": "首页",
+  "nav.credentials": "资历",
+  "nav.resumes": "简历",
+  "nav.projects": "项目",
+  "nav.contact": "联系",
+  "cta.download": "翻译",
+
+  "welcome.subtitle": "欢迎来到我的数字作品集",
+  "welcome.header": "此作品集旨在为潜在雇主提供我职业历程、技能和项目的洞察。",
+  "welcome.description1": "为了展示我作为商业专业人士的专业知识和多样性，我在本网站提交了我的资历的视觉展示。我的教育背景包括工商管理学士学位和软件开发认证。这些资历为我提供了扎实的商业原则和技术技能基础。此外，我还拥有多项FEMA认证，证明我在灾难恢复和应急准备方面的能力。",
+  "welcome.description2": "我曾担任数据验证专员，在灾难恢复和应急准备行业积累了大部分经验。在此期间，我晋升为领导职位，学习如何作为领导者进行沟通，解决问题，并根据团队成员的优势有效分配任务。我的工作需要出差，代表公司与客户会面。此外，该职位还涉及使用各种软件系统将数据整理成可展示的格式。这段经历与我的技术技能非常契合。作为一名认证的软件开发人员，我能够创建、改进和维护支持业务运营的应用程序。",
+  "welcome.description3": "最后，我希望潜在雇主不仅能审阅我的经验和资历，还能考虑我的广泛能力。不局限于某一职位或行业让我学会快速掌握新知识，在几乎无需监督的情况下完成任务，并轻松适应新环境。感谢您抽出时间查看我的作品集，希望您能更好地了解我。",
+
+  "credentials.title": "资历",
+  "credentials.subtitle": "我的资历及其影响",
+  "credentials.bach.header": "工商管理学士学位",
+  "credentials.bach.description": "我的工商管理学士学位使我具备了领导力、战略思维和解决问题的能力，从而推动公司的成长和效率。通过理解财务、市场营销和运营等关键业务功能如何协同工作，我能够做出有数据支持的明智决策。我还具备强大的沟通能力、创业思维和适应力，这有助于组织创新、优化流程，并营造积极协作的工作文化。",
+
+  "credentials.cert.header": "软件开发认证",
+  "credentials.cert.description": "获得软件开发认证为我带来了竞争优势，确保公司开发人员遵循行业公认的质量、安全和效率标准。作为认证专业人士，我为项目带来结构化、文档完善的流程，减少错误、加快交付并提高可维护性。这不仅提升了客户的信任和满意度，还降低了昂贵缺陷或安全漏洞等风险。最终，它成为可信度的标志，可以吸引新业务、增强团队绩效并保护公司的声誉。",
+
+  "credentials.fema.header": "FEMA独立学习灾难恢复认证",
+  "credentials.fema.description": "通过完成FEMA独立学习认证，我为公司带来了更强的应急准备、合规性和韧性。这些课程使我具备了有效应对灾难的技能，能够通过事件指挥系统与机构协调，并遵循国家事件管理系统标准。我的培训帮助组织满足监管要求、减少停机时间、降低风险，并通过展示对安全、连续性和卓越运营的承诺来建立客户和利益相关者的信心。",
+
+  "resumes.title": "简历",
+  "resumes.subtitle": "声明：这是一个在多个平台上共享的公共网站。为了保护我的隐私，我的个人电话号码已被模糊处理。如果您希望就专业事务与我联系，可以通过电子邮件、我的LinkedIn个人资料、微信或在联系页面发送消息。谢谢。",
+
+  "projects.title": "项目",
+  "projects.subtitle": "过去和即将开展的工作",
+  "projects.project1.header": "幼犬碗赛",
+  "projects.project1.description": "该项目的目标是从API中提取每位选手的数据，并将其传输到应用程序中，使用户能够查看和使用。这款应用允许用户创建新选手、添加图片、删除选手，并查看所有选手的详细信息。该项目包含以下编码实践：React.js、元素查询、模板和渲染。",
+  "projects.project1.button": "点击这里查看！",
+
+  "projects.project2.header": "认证器应用",
+  "projects.project2.description": "我构建了一个认证器，以确保用户拥有适当的权限访问应用程序。该项目要求我构建一个处理认证请求的后端API，同时作为用户名和密码的安全存储位置。",
+
+  "projects.project3.header": "数字作品集",
+  "projects.project3.description": "该项目包含以下编码实践：HTML、CSS和JavaScript。此作品集旨在视觉上吸引人且易于导航，重点是以专业的方式展示我的工作。",
+
+  "projects.project4.img": "即将推出",
+  "projects.project4.header": "即将开展的项目 - 餐厅网站",
+  "projects.project4.description": "该网站由客户委托，为他们即将开业的新餐厅而建。网站的目标是吸引新客户并获得在线信誉。网站将包括菜单选项的高质量照片、SEO友好的菜单以及易于使用的在线订餐系统。",
+
+  "projects.project5.img": "即将推出",
+  "projects.project5.header": "即将开展的项目 - 移动应用",
+  "projects.project5.description": "该移动应用将作为一个引人入胜的数字店面，包括360度产品展示和在线购买功能。",
+
+  "contact.title": "联系",
+  "contact.subtitle": "保持联系",
+  "contact.header": "如有任何问题或咨询，请随时与我联系！",
+  "contact.emailLabel": "电子邮件：",
+  "contact.messageLabel": "消息：",
+  "contact.send.button": "发送",
+  "contact.success": "谢谢！您的消息已成功发送！",
+  "contact.error": "抱歉，发送消息时出错。请稍后再试。"
+}

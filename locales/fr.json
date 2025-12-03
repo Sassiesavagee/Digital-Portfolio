@@ -1,0 +1,59 @@
+{
+  "welcome.title": "Bienvenue",
+
+  "nav.home": "Accueil",
+  "nav.credentials": "Certifications",
+  "nav.resumes": "CV",
+  "nav.projects": "Projets",
+  "nav.contact": "Contact",
+  "cta.download": "Traduire",
+
+  "welcome.subtitle": "Bienvenue dans mon portfolio numérique",
+  "welcome.header": "Ce portfolio est conçu pour donner aux employeurs potentiels un aperçu de mon parcours professionnel, de mes compétences et de mes projets.",
+  "welcome.description1": "Afin de démontrer mon expertise et ma polyvalence en tant que professionnel des affaires, j’ai présenté une représentation visuelle de mes certifications sur ce site. Mon parcours éducatif comprend une licence en gestion d’entreprise et une certification en développement logiciel. Ces qualifications m’ont fourni une base solide en principes commerciaux et en compétences techniques. De plus, je possède plusieurs certifications FEMA qui démontrent ma compétence en matière de reprise après sinistre et de préparation aux urgences.",
+  "welcome.description2": "J’ai travaillé comme spécialiste de la validation des données, acquérant la majorité de mon expérience dans le domaine de la reprise après sinistre et de la préparation aux urgences. Pendant cette période, j’ai été promu à des postes de direction, ce qui m’a appris à communiquer en tant que leader, à résoudre des problèmes et à déléguer efficacement les tâches en fonction des forces de mon équipe. Mon travail nécessitait des déplacements pour rencontrer des clients au nom de l’entreprise. Il impliquait également l’utilisation de divers systèmes logiciels pour compiler des données dans un format présentable. Cette expérience s’est parfaitement associée à mes compétences technologiques. En tant que développeur logiciel certifié, je peux créer, améliorer et maintenir les applications qui soutiennent les opérations commerciales.",
+  "welcome.description3": "En conclusion, je souhaite que les employeurs potentiels examinent non seulement mon expérience et mes qualifications, mais qu’ils prennent également en considération l’étendue de mes compétences. Ne pas me limiter à un seul poste ou secteur m’a appris à assimiler rapidement de nouvelles connaissances, à accomplir des tâches avec peu ou pas de supervision et à m’adapter facilement à de nouveaux environnements. Je vous remercie d’avoir pris le temps de consulter mon portfolio et j’espère que vous apprécierez en apprendre davantage sur moi.",
+
+  "credentials.title": "Certifications",
+  "credentials.subtitle": "Mes certifications et leur impact",
+  "credentials.bach.header": "Licence en gestion d’entreprise",
+  "credentials.bach.description": "Ma licence en gestion d’entreprise m’a doté de compétences en leadership, en pensée stratégique et en résolution de problèmes qui favorisent la croissance et l’efficacité d’une entreprise. En comprenant comment les principales fonctions commerciales — telles que la finance, le marketing et les opérations — travaillent ensemble, je suis capable de prendre des décisions éclairées et basées sur les données. J’apporte également de solides compétences en communication, un esprit entrepreneurial et une grande adaptabilité, ce qui aide les organisations à innover, à rationaliser les processus et à favoriser une culture de travail positive et collaborative.",
+
+  "credentials.cert.header": "Certification en développement logiciel",
+  "credentials.cert.description": "Obtenir une certification en développement logiciel m’a donné un avantage compétitif en assurant aux entreprises que leurs développeurs respectent des normes reconnues en matière de qualité, de sécurité et d’efficacité. En tant que professionnel certifié, j’apporte des processus structurés et bien documentés aux projets, réduisant les erreurs, accélérant la livraison et améliorant la maintenabilité. Cela renforce la confiance et la satisfaction des clients tout en réduisant les risques tels que les défauts coûteux ou les failles de sécurité. En fin de compte, cela constitue un gage de crédibilité qui peut attirer de nouvelles affaires, renforcer la performance de l’équipe et protéger la réputation de l’entreprise.",
+
+  "credentials.fema.header": "Certifications FEMA d’étude indépendante en reprise après sinistre",
+  "credentials.fema.description": "En complétant les certifications FEMA d’étude indépendante, j’apporte une meilleure préparation aux urgences, une conformité accrue et une résilience renforcée à l’entreprise. Ces cours m’ont donné les compétences nécessaires pour répondre efficacement aux catastrophes, coordonner avec les agences via le système de commandement des incidents et suivre les normes du système national de gestion des incidents. Ma formation aide l’organisation à respecter les exigences réglementaires, à réduire les interruptions, à atténuer les risques et à renforcer la confiance des clients et des parties prenantes en démontrant un engagement fort envers la sécurité, la continuité et l’excellence opérationnelle.",
+
+  "resumes.title": "CV",
+  "resumes.subtitle": "Avis : Ce site est public et partagé sur plusieurs plateformes. Pour ma protection et ma vie privée, mon numéro de téléphone personnel a été masqué. Pour toute demande professionnelle, vous pouvez me contacter par e-mail, via mon profil LinkedIn, WeChat ou en envoyant un message depuis la page de contact. Merci.",
+
+  "projects.title": "Projets",
+  "projects.subtitle": "Travaux passés et à venir",
+  "projects.project1.header": "Super Bowl des chiots",
+  "projects.project1.description": "L’objectif de ce projet était d’extraire les données de chaque joueur à partir de l’API et de les transférer dans l’application, où elles sont visibles et fonctionnelles pour l’utilisateur. Cette application permet à l’utilisateur de créer un nouveau joueur, d’ajouter une image, de supprimer un joueur et de voir les détails de tous les joueurs. Ce projet inclut les pratiques de codage suivantes : React.js, requêtes d’éléments, modèles et rendu.",
+  "projects.project1.button": "Cliquez ici pour voir !",
+
+  "projects.project2.header": "Application d’authentification",
+  "projects.project2.description": "J’ai construit une application d’authentification pour garantir que les utilisateurs disposent des autorisations appropriées pour accéder à l’application. Ce projet m’a demandé de créer une API backend qui gère les demandes d’authentification et qui sert également de stockage sécurisé pour les noms d’utilisateur et les mots de passe.",
+
+  "projects.project3.header": "Portfolio numérique",
+  "projects.project3.description": "Ce projet inclut les pratiques de codage suivantes : HTML, CSS et JavaScript. Ce portfolio est conçu pour être visuellement attrayant et facile à naviguer, avec un accent sur la présentation professionnelle de mon travail.",
+
+  "projects.project4.img": "Bientôt disponible",
+  "projects.project4.header": "Projet à venir - Site web de restaurant",
+  "projects.project4.description": "Ce site web a été commandé par un client pour un nouveau restaurant. L’objectif est d’attirer de nouveaux clients et de gagner en crédibilité en ligne. Le site comprendra des photos de haute qualité des plats, un menu optimisé pour le SEO et un système de commande en ligne facile à utiliser.",
+
+  "projects.project5.img": "Bientôt disponible",
+  "projects.project5.header": "Projet à venir - Application mobile",
+  "projects.project5.description": "Cette application mobile servira de vitrine numérique attrayante, avec des fonctionnalités telles que la visualisation de produits à 360° et l’achat en ligne.",
+
+  "contact.title": "Contact",
+  "contact.subtitle": "Restez en contact",
+  "contact.header": "N’hésitez pas à me contacter pour toute question ou demande !",
+  "contact.emailLabel": "E-mail :",
+  "contact.messageLabel": "Message :",
+  "contact.send.button": "Envoyer",
+  "contact.success": "Merci ! Votre message a été envoyé avec succès !",
+  "contact.error": "Désolé, une erreur est survenue lors de l’envoi de votre message. Veuillez réessayer plus tard."
+}

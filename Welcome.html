@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="...">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title data-i18n="welcome.title">Welcome</title>
     
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
@@ -17,43 +17,90 @@
       </div>
 
       <div id="links">
-        <a class="active" href="Welcome.html">Home</a>
-        <a href="Credentials.html">Credentials</a>
-        <a href="Resumes.html">Resumes</a>
-        <a href="Projects.html">Projects</a>
-        <a href="Contact.html">Contact</a>
-        </div>
+        <a class="active" data-i18n="nav.home" href="Welcome.html">Home</a>
+        <a data-i18n="nav.credentials" href="Credentials.html">Credentials</a>
+        <a data-i18n="nav.resumes" href="Resumes.html">Resumes</a>
+        <a data-i18n="nav.projects" href="Projects.html">Projects</a>
+        <a data-i18n="nav.contact" href="Contact.html">Contact</a>
+      </div>
+        
+
+  <img class="langIcon" src="language-learning.png" alt="Language Selector">
+  <select id="localeSwitcher">
+    <option value="en">English</option>
+    <option value="zh-CN">中文（简体）</option>
+    <option value="ko">한국어</option>
+    <option value="es">Español</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="ja">日本語</option>
+    <option value="it">Italiano</option>
+  </select>
+
+
     </nav>
   </header>
 
 
 <main>
 <div id="welcome-header">
-  <h1>Welcome to My Digital Portfolio</h1>
+  <h1 data-i18n="welcome.subtitle">Welcome to My Digital Portfolio</h1>
 
-  <h2>This portfolio is designed to give prospective employers insight into my professional journey, skills, and projects.</h2>
+  <h2 data-i18n="welcome.header">This portfolio is designed to give prospective employers insight into my professional journey, skills, and projects.</h2>
 </div>
 
 <div id="welcome-description">
-  <p>To ensure my expertise and versatility as a business professional I have submitted visual representation of my credentials via this site.
+  <p data-i18n="welcome.description1">
+    To ensure my expertise and versatility as a business professional I have submitted visual representation of my credentials via this site.
     My educational background includes a Bachelors in Business Management and a Software Development Certification.
     These qualifications have equipped me with a solid foundation in business principles and technical skills.
     Additionally, I hold several F.E.M.A certifications that demonstrate my proficiency in disaster recovery and preparedness.
   </p>
 
-  <p>
+  <p data-i18n="welcome.description2">
     Formerly, I worked as a Data Validation Specialist. Gaining most of my experiance in the disaster recovery and prepardness industry. 
     During this time I was promoted to leadership roles, that taught me how to communicate as a leader. Problem solving and effectively delegating tasks based off my team memeber's strengths.
     My work required traveling, to meet with clients on the company's behalf. Also, the positioned involved utilizing various software systems to compile data into a presentable format.
     This experince paired very well with my technology skills. As a certified Software Developer I can create, improve, and maintain the applications that power business operations.
   </p>
 
-  <p>
+  <p data-i18n="welcome.description3">
     In closing, I want perspective employers to not only review my experince and qualifications, but to take inconsideration my range of abilities. 
     Not limiting myself to one position or industry has taught me that I can learn new material quickly, complete task with little to no supervison, and adapt to new environments with ease.
     With that being said, I would like to thank you for taking the time to view my portfolio, and I hope you enjoy learning more about me.
   </p>
 </div>
+
+<script>
+let translations = {};
+
+async function loadLocale(locale) {
+  document.documentElement.lang = locale;
+
+  const res = await fetch(`locales/${locale}.json`);
+  translations = await res.json();
+  render();
+}
+
+function t(key) {
+  return translations[key] || key;
+}
+
+function render() {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    el.textContent = t(key);
+  });
+}
+
+document.getElementById("localeSwitcher").addEventListener("change", e => {
+  loadLocale(e.target.value);
+});
+
+// Load default language
+loadLocale("en");
+</script>
+
 </main>
 
 

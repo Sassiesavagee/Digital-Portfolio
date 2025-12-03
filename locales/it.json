@@ -1,0 +1,59 @@
+{
+  "welcome.title": "Benvenuto",
+
+  "nav.home": "Home",
+  "nav.credentials": "Credenziali",
+  "nav.resumes": "Curriculum",
+  "nav.projects": "Progetti",
+  "nav.contact": "Contatti",
+  "cta.download": "Traduci",
+
+  "welcome.subtitle": "Benvenuto nel mio portfolio digitale",
+  "welcome.header": "Questo portfolio è progettato per offrire ai potenziali datori di lavoro una panoramica del mio percorso professionale, delle mie competenze e dei miei progetti.",
+  "welcome.description1": "Per dimostrare la mia esperienza e versatilità come professionista del settore, ho presentato una rappresentazione visiva delle mie credenziali su questo sito. La mia formazione accademica include una laurea in Gestione Aziendale e una certificazione in Sviluppo Software. Queste qualifiche mi hanno fornito una solida base nei principi aziendali e nelle competenze tecniche. Inoltre, possiedo diverse certificazioni FEMA che dimostrano la mia competenza nella gestione delle emergenze e nella preparazione ai disastri.",
+  "welcome.description2": "In passato ho lavorato come Specialista di Validazione dei Dati, acquisendo gran parte della mia esperienza nel settore della gestione delle emergenze e della preparazione ai disastri. Durante questo periodo sono stato promosso a ruoli di leadership, che mi hanno insegnato a comunicare come leader, a risolvere problemi e a delegare efficacemente i compiti in base ai punti di forza dei membri del mio team. Il mio lavoro richiedeva viaggi per incontrare i clienti per conto dell’azienda. Inoltre, la posizione prevedeva l’utilizzo di vari sistemi software per compilare i dati in un formato presentabile. Questa esperienza si è integrata perfettamente con le mie competenze tecnologiche. Come sviluppatore software certificato, posso creare, migliorare e mantenere le applicazioni che supportano le operazioni aziendali.",
+  "welcome.description3": "In conclusione, desidero che i potenziali datori di lavoro non solo esaminino la mia esperienza e le mie qualifiche, ma che prendano in considerazione anche la mia gamma di abilità. Non limitarmi a una sola posizione o settore mi ha insegnato a imparare rapidamente nuovi contenuti, a completare i compiti con poca o nessuna supervisione e ad adattarmi facilmente a nuovi ambienti. Vi ringrazio per aver dedicato del tempo alla visione del mio portfolio e spero che vi piaccia conoscere meglio la mia persona.",
+
+  "credentials.title": "Credenziali",
+  "credentials.subtitle": "Le mie credenziali e il loro impatto",
+  "credentials.bach.header": "Laurea in Gestione Aziendale",
+  "credentials.bach.description": "La mia laurea in gestione aziendale mi ha fornito competenze di leadership, pensiero strategico e capacità di problem solving che favoriscono la crescita e l’efficienza di un’azienda. Comprendendo come le principali funzioni aziendali — come finanza, marketing e operazioni — lavorino insieme, sono in grado di prendere decisioni informate e basate sui dati. Porto inoltre forti capacità comunicative, una mentalità imprenditoriale e adattabilità, che aiutano le organizzazioni a innovare, ottimizzare i processi e promuovere una cultura lavorativa positiva e collaborativa.",
+
+  "credentials.cert.header": "Certificazione in Sviluppo Software",
+  "credentials.cert.description": "Ottenere una certificazione in sviluppo software mi ha dato un vantaggio competitivo, assicurando alle aziende che i loro sviluppatori rispettano standard riconosciuti di qualità, sicurezza ed efficienza. Come professionista certificato, porto processi strutturati e ben documentati ai progetti, riducendo gli errori, accelerando la consegna e migliorando la manutenibilità. Questo non solo aumenta la fiducia e la soddisfazione dei clienti, ma riduce anche i rischi come difetti costosi o violazioni della sicurezza. In definitiva, rappresenta un marchio di credibilità che può attrarre nuovi affari, rafforzare le prestazioni del team e proteggere la reputazione dell’azienda.",
+
+  "credentials.fema.header": "Certificazioni FEMA di Studio Indipendente sulla Gestione dei Disastri",
+  "credentials.fema.description": "Completando le certificazioni FEMA di studio indipendente, porto maggiore preparazione alle emergenze, conformità e resilienza all’azienda. Questi corsi mi hanno fornito le competenze per rispondere efficacemente ai disastri, coordinarmi con le agenzie attraverso l’Incident Command System e seguire gli standard del National Incident Management System. La mia formazione aiuta l’organizzazione a soddisfare i requisiti normativi, ridurre i tempi di inattività, mitigare i rischi e costruire la fiducia di clienti e stakeholder dimostrando un forte impegno per la sicurezza, la continuità e l’eccellenza operativa.",
+
+  "resumes.title": "Curriculum",
+  "resumes.subtitle": "Avviso: Questo è un sito web pubblico condiviso su più piattaforme. Per la mia protezione e privacy, il mio numero di telefono personale è stato oscurato. Se desideri contattarmi per richieste professionali, puoi farlo tramite e-mail, il mio profilo LinkedIn, WeChat o inviando un messaggio dalla pagina dei contatti. Grazie.",
+
+  "projects.title": "Progetti",
+  "projects.subtitle": "Lavori passati e futuri",
+  "projects.project1.header": "Super Bowl dei cuccioli",
+  "projects.project1.description": "L’obiettivo di questo progetto era estrarre i dati di ciascun giocatore dall’API e trasferirli nell’app, dove sono visibili e funzionali per l’utente. Questa app consente all’utente di creare un nuovo giocatore, aggiungere un’immagine, eliminare un giocatore e vedere i dettagli di tutti i giocatori. Questo progetto include le seguenti pratiche di programmazione: React.js, query sugli elementi, template e rendering.",
+  "projects.project1.button": "Clicca qui per vedere!",
+
+  "projects.project2.header": "App di Autenticazione",
+  "projects.project2.description": "Ho costruito un’app di autenticazione per garantire che gli utenti abbiano le autorizzazioni appropriate per accedere all’app. Questo progetto ha richiesto la creazione di un’API backend che gestisce le richieste di autenticazione e che funge anche da archivio sicuro per nomi utente e password.",
+
+  "projects.project3.header": "Portfolio Digitale",
+  "projects.project3.description": "Questo progetto include le seguenti pratiche di programmazione: HTML, CSS e JavaScript. Questo portfolio è progettato per essere visivamente accattivante e facile da navigare, con un focus sulla presentazione professionale del mio lavoro.",
+
+  "projects.project4.img": "In arrivo",
+  "projects.project4.header": "Progetto Futuro - Sito Web di Ristorante",
+  "projects.project4.description": "Questo sito web è stato commissionato da un cliente per un nuovo ristorante che sta aprendo. L’obiettivo del sito è attrarre nuovi clienti e ottenere credibilità online. Il sito includerà foto di alta qualità delle opzioni del menu, un menu ottimizzato per la SEO e un sistema di ordinazione online facile da usare.",
+
+  "projects.project5.img": "In arrivo",
+  "projects.project5.header": "Progetto Futuro - App Mobile",
+  "projects.project5.description": "L’app mobile fungerà da vetrina digitale coinvolgente, includendo funzionalità come la visualizzazione dei prodotti a 360° e l’acquisto online.",
+
+  "contact.title": "Contatti",
+  "contact.subtitle": "Rimani in contatto",
+  "contact.header": "Sentiti libero di contattarmi per qualsiasi domanda o richiesta!",
+  "contact.emailLabel": "E-mail:",
+  "contact.messageLabel": "Messaggio:",
+  "contact.send.button": "Invia",
+  "contact.success": "Grazie! Il tuo messaggio è stato inviato con successo!",
+  "contact.error": "Spiacente, si è verificato un errore nell’invio del messaggio. Per favore riprova più tardi."
+}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="...">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resumes</title>
+    <title data-i18n="resumes.title">Resumes</title>
     
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
@@ -17,21 +17,65 @@
       </div>
 
       <div id="links">
-        <a href="Welcome.html">Home</a>
-        <a href="Credentials.html">Credentials</a>
-        <a class="active" href="Resumes.html">Resumes</a>
-        <a href="Projects.html">Projects</a>
-        <a href="Contact.html">Contact</a>
+        <a data-i18n="nav.home" href="Welcome.html">Home</a>
+        <a data-i18n="nav.credentials" href="Credentials.html">Credentials</a>
+        <a data-i18n="nav.resumes" class="active" href="Resumes.html">Resumes</a>
+        <a data-i18n="nav.projects" href="Projects.html">Projects</a>
+        <a data-i18n="nav.contact" href="Contact.html">Contact</a>
         </div>
-    </nav>
-  </header>
 
-  <main>
-    <h2>Disclosure: This is a public website that is shared across multiple platforms. 
+ <img class="langIcon" src="language-learning.png" alt="Language Selector">
+  <select id="localeSwitcher">
+    <option value="en">English</option>
+    <option value="zh-CN">中文（简体）</option>
+    <option value="ko">한국어</option>
+    <option value="es">Español</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="ja">日本語</option>
+    <option value="it">Italiano</option>
+  </select>
+
+    </nav>
+</header>
+
+<main>
+    <h2 data-i18n="resumes.subtitle">Disclosure: This is a public website that is shared across multiple platforms. 
       For my own protection and privacy, my personal phone number has been blurred out. 
       If you would like to reach out to me with any professional inquiries, 
       you may do so via e-mail, my LinkedIn profile, Wechat, or send a message from the contact page. Thank you.</h2>
-  </main>
+
+<script>
+let translations = {};
+
+async function loadLocale(locale) {
+  document.documentElement.lang = locale;
+
+  const res = await fetch(`locales/${locale}.json`);
+  translations = await res.json();
+  render();
+}
+
+function t(key) {
+  return translations[key] || key;
+}
+
+function render() {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    el.textContent = t(key);
+  });
+}
+
+document.getElementById("localeSwitcher").addEventListener("change", e => {
+  loadLocale(e.target.value);
+});
+
+// Load default language
+loadLocale("en");
+</script>
+
+</main>
 
     <object data=".pdf" type="application/pdf" width="100%" height="600px">
       <iframe src="Ivory Watkins Digital Resume (blurred version)- 2025.pdf" width="100%" height="600px"></iframe>

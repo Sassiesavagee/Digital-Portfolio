@@ -15,6 +15,26 @@ nav{
     margin-top: 2.5em;
 }
 
+img.langIcon{
+  width: 75px;
+  height: auto;
+  margin-left: 1em;
+  margin-right: .2em;
+  background-color: #ffff;
+  border-color: #ffff;
+}
+
+#localeSwitcher{
+  font-size: 1.2em;
+  font-style: normal;
+  margin-top: .6em;
+  margin-left: .1em;
+  margin-right: 2em;
+  background-color: #ecebeb;
+  border-color: #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 #logo{
     display: inline-block;
     margin-right: 2em;
@@ -276,11 +296,11 @@ section.Projects-card:hover {
 }
 
 #Pups-Link{
-width: 15%;
+width: 12%;
 height: auto;
-background-color: whitesmoke;
+background-color: #ecebeb;
 border-radius: 8px;
-border-color: whitesmoke;
+border-color: #ecebeb;
 }
 
 #Pups-Link:hover{

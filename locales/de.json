@@ -1,0 +1,59 @@
+{
+  "welcome.title": "Willkommen",
+
+  "nav.home": "Startseite",
+  "nav.credentials": "Qualifikationen",
+  "nav.resumes": "Lebensläufe",
+  "nav.projects": "Projekte",
+  "nav.contact": "Kontakt",
+  "cta.download": "Übersetzen",
+
+  "welcome.subtitle": "Willkommen in meinem digitalen Portfolio",
+  "welcome.header": "Dieses Portfolio soll potenziellen Arbeitgebern Einblicke in meinen beruflichen Werdegang, meine Fähigkeiten und Projekte geben.",
+  "welcome.description1": "Um meine Fachkenntnisse und Vielseitigkeit als Business-Profi zu demonstrieren, habe ich auf dieser Website eine visuelle Darstellung meiner Qualifikationen bereitgestellt. Mein Bildungshintergrund umfasst einen Bachelor in Betriebswirtschaft und eine Zertifizierung in Softwareentwicklung. Diese Qualifikationen haben mir eine solide Grundlage in betriebswirtschaftlichen Prinzipien und technischen Fähigkeiten vermittelt. Darüber hinaus besitze ich mehrere FEMA-Zertifizierungen, die meine Kompetenz in Katastrophenmanagement und Notfallvorsorge belegen.",
+  "welcome.description2": "Früher arbeitete ich als Datenvalidierungsspezialist und sammelte den Großteil meiner Erfahrung in der Katastrophenmanagement- und Vorsorgebranche. Während dieser Zeit wurde ich in Führungspositionen befördert, wo ich lernte, als Führungskraft zu kommunizieren, Probleme zu lösen und Aufgaben effektiv basierend auf den Stärken meiner Teammitglieder zu delegieren. Meine Arbeit erforderte Reisen, um Kunden im Namen des Unternehmens zu treffen. Außerdem beinhaltete die Position die Nutzung verschiedener Softwaresysteme, um Daten in ein präsentables Format zu bringen. Diese Erfahrung passte sehr gut zu meinen technischen Fähigkeiten. Als zertifizierter Softwareentwickler kann ich Anwendungen erstellen, verbessern und warten, die Geschäftsabläufe unterstützen.",
+  "welcome.description3": "Abschließend möchte ich, dass potenzielle Arbeitgeber nicht nur meine Erfahrung und Qualifikationen prüfen, sondern auch meine Bandbreite an Fähigkeiten berücksichtigen. Die Tatsache, dass ich mich nicht auf eine einzige Position oder Branche beschränkt habe, hat mir beigebracht, neues Material schnell zu erlernen, Aufgaben mit wenig oder keiner Aufsicht zu erledigen und mich leicht an neue Umgebungen anzupassen. Vielen Dank, dass Sie sich die Zeit genommen haben, mein Portfolio anzusehen. Ich hoffe, Sie genießen es, mehr über mich zu erfahren.",
+
+  "credentials.title": "Qualifikationen",
+  "credentials.subtitle": "Meine Qualifikationen und ihre Wirkung",
+  "credentials.bach.header": "Bachelor of Arts in Betriebswirtschaft",
+  "credentials.bach.description": "Mein Bachelorabschluss in Betriebswirtschaft hat mir Führungsqualitäten, strategisches Denken und Problemlösungsfähigkeiten vermittelt, die das Wachstum und die Effizienz eines Unternehmens fördern. Durch das Verständnis, wie zentrale Geschäftsbereiche — wie Finanzen, Marketing und Betrieb — zusammenarbeiten, kann ich fundierte, datengestützte Entscheidungen treffen. Außerdem bringe ich starke Kommunikationsfähigkeiten, eine unternehmerische Denkweise und Anpassungsfähigkeit mit, die Organisationen helfen, Innovationen voranzutreiben, Prozesse zu optimieren und eine positive, kollaborative Unternehmenskultur zu fördern.",
+
+  "credentials.cert.header": "Softwareentwicklungszertifizierung",
+  "credentials.cert.description": "Der Erwerb einer Softwareentwicklungszertifizierung hat mir einen Wettbewerbsvorteil verschafft, indem er Unternehmen versichert, dass ihre Entwickler anerkannte Standards für Qualität, Sicherheit und Effizienz einhalten. Als zertifizierter Fachmann bringe ich strukturierte, gut dokumentierte Prozesse in Projekte ein, reduziere Fehler, beschleunige die Lieferung und verbessere die Wartbarkeit. Dies stärkt das Vertrauen und die Zufriedenheit der Kunden und mindert Risiken wie kostspielige Fehler oder Sicherheitslücken. Letztlich dient es als Glaubwürdigkeitsnachweis, der neue Geschäfte anziehen, die Teamleistung stärken und den Ruf des Unternehmens schützen kann.",
+
+  "credentials.fema.header": "FEMA-Zertifizierungen für unabhängiges Studium im Katastrophenmanagement",
+  "credentials.fema.description": "Durch den Abschluss von FEMA-Zertifizierungen im unabhängigen Studium bringe ich verbesserte Notfallvorsorge, Compliance und Resilienz in das Unternehmen. Diese Kurse haben mir die Fähigkeiten vermittelt, effektiv auf Katastrophen zu reagieren, mit Behörden über das Incident Command System zu koordinieren und die Standards des National Incident Management Systems einzuhalten. Meine Ausbildung hilft der Organisation, regulatorische Anforderungen zu erfüllen, Ausfallzeiten zu reduzieren, Risiken zu mindern und das Vertrauen von Kunden und Stakeholdern zu stärken, indem sie ein starkes Engagement für Sicherheit, Kontinuität und operative Exzellenz zeigt.",
+
+  "resumes.title": "Lebensläufe",
+  "resumes.subtitle": "Hinweis: Dies ist eine öffentliche Website, die über mehrere Plattformen geteilt wird. Zu meinem Schutz und meiner Privatsphäre wurde meine persönliche Telefonnummer unkenntlich gemacht. Für berufliche Anfragen können Sie mich per E-Mail, über mein LinkedIn-Profil, WeChat oder über die Kontaktseite erreichen. Vielen Dank.",
+
+  "projects.title": "Projekte",
+  "projects.subtitle": "Vergangene und kommende Arbeiten",
+  "projects.project1.header": "Welpen-Wettbewerb",
+  "projects.project1.description": "Das Ziel dieses Projekts war es, die Daten jedes Spielers aus der API zu extrahieren und in die App zu übertragen, wo sie für den Benutzer sichtbar und funktional sind. Diese App ermöglicht es dem Benutzer, einen neuen Spieler zu erstellen, ein Bild hinzuzufügen, einen Spieler zu löschen und die Details aller Spieler anzuzeigen. Dieses Projekt enthält die folgenden Programmierpraktiken: React.js, Elementabfragen, Vorlagen und Rendering.",
+  "projects.project1.button": "Hier klicken, um zu sehen!",
+
+  "projects.project2.header": "App zur Authentifizierung",
+  "projects.project2.description": "Ich habe einen Authenticator entwickelt, um sicherzustellen, dass die Benutzer die entsprechenden Berechtigungen zum Zugriff auf die App haben. Dieses Projekt erforderte den Aufbau einer Backend-API, die Authentifizierungsanfragen verarbeitet und gleichzeitig als sicherer Speicherort für Benutzernamen und Passwörter dient.",
+
+  "projects.project3.header": "Digitales Portfolio",
+  "projects.project3.description": "Dieses Projekt enthält die folgenden Programmierpraktiken: HTML, CSS und JavaScript. Dieses Portfolio ist so gestaltet, dass es visuell ansprechend und einfach zu navigieren ist, mit dem Schwerpunkt auf einer professionellen Präsentation meiner Arbeit.",
+
+  "projects.project4.img": "Demnächst verfügbar",
+  "projects.project4.header": "Bevorstehendes Projekt - Restaurant-Website",
+  "projects.project4.description": "Diese Website wurde von einem Kunden für ein neues Restaurant in Auftrag gegeben. Das Ziel dieser Website ist es, neue Kunden zu gewinnen und Online-Glaubwürdigkeit aufzubauen. Die Seite wird hochwertige Fotos von Menüoptionen, ein SEO-freundliches Menü und ein benutzerfreundliches Online-Bestellsystem enthalten.",
+
+  "projects.project5.img": "Demnächst verfügbar",
+  "projects.project5.header": "Bevorstehendes Projekt - Mobile Anwendung",
+  "projects.project5.description": "Die mobile anwendung wird als ansprechendes digitales Schaufenster dienen, einschließlich Funktionen wie 360°-Produktansicht und Online-Kauf.",
+
+  "contact.title": "Kontakt",
+  "contact.subtitle": "In Verbindung bleiben",
+  "contact.header": "Zögern Sie nicht, sich bei Fragen oder Anfragen zu melden!",
+  "contact.emailLabel": "E-Mail:",
+  "contact.messageLabel": "Nachricht:",
+  "contact.send.button": "Senden",
+  "contact.success": "Danke! Ihre Nachricht wurde erfolgreich gesendet!",
+  "contact.error": "Entschuldigung, beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+}

@@ -1,0 +1,63 @@
+{
+  "welcome.title": "Welcome",
+
+  "nav.home": "Home",
+  "nav.credentials": "Credentials",
+  "nav.resumes": "Resumes",
+  "nav.projects": "Projects",
+  "nav.contact": "Contact",
+  "cta.download": "Translate",
+
+  "welcome.subtitle": "Welcome to My Digital Portfolio",
+  "welcome.header": "This portfolio is designed to give prospective employers insight into my professional journey, skills, and projects.",
+  "welcome.description1": "To ensure my expertise and versatility as a business professional I have submitted visual representation of my credentials via this site. My educational background includes a Bachelors in Business Management and a Software Development Certification. These qualifications have equipped me with a solid foundation in business principles and technical skills. Additionally, I hold several F.E.M.A certifications that demonstrate my proficiency in disaster recovery and preparedness.",
+  "welcome.description2": "Formerly, I worked as a Data Validation Specialist. Gaining most of my experiance in the disaster recovery and prepardness industry. During this time I was promoted to leadership roles, that taught me how to communicate as a leader. Problem solving and effectively delegating tasks based off my team memeber's strengths. My work required traveling, to meet with clients on the company's behalf. Also, the positioned involved utilizing various software systems to compile data into a presentable format. This experince paired very well with my technology skills. As a certified Software Developer I can create, improve, and maintain the applications that power business operations.",
+  "welcome.description3": "In closing, I want perspective employers to not only review my experince and qualifications, but to take inconsideration my range of abilities. Not limiting myself to one position or industry has taught me that I can learn new material quickly, complete task with little to no supervison, and adapt to new environments with ease. With that being said, I would like to thank you for taking the time to view my portfolio, and I hope you enjoy learning more about me.",
+
+"credentials.title": "Credentials",
+"credentials.subtitle": "My Credentials and their Impact",
+"credentials.bach.header": "Bachelors of Arts in Business Management",
+"credentials.bach.description": "My bachelor’s degree in business management has equipped me with leadership, strategic thinking, and problem-solving skills that drive a company’s growth and efficiency. By understanding how key business functions—such as finance, marketing, and operations—work together, I am able to make informed, data-driven decisions. I also bring strong communication abilities, an entrepreneurial mindset, and adaptability, which help organizations innovate, streamline processes, and foster a positive, collaborative workplace culture.",
+
+"credentials.cert.header": "Software Development Certification",
+"credentials.cert.description": "Obtaining a software development certification has given me a competitive edge by assuring companies that their developers adhere to proven, industry‑recognized standards for quality, security, and efficiency. As a certified professional, I bring structured, well‑documented processes to projects, reducing errors, accelerating delivery, and improving maintainability. This not only enhances client trust and satisfaction but also mitigates risks such as costly defects or security breaches. Ultimately, it serves as a mark of credibility that can attract new business, strengthen team performance, and protect the company’s reputation.",
+
+"credentials.fema.header": "F.E.M.A Independent Study Disaster Recovery Certifications",
+"credentials.fema.description": "By completing FEMA Independent Study certifications, I bring enhanced emergency preparedness, compliance, and resilience to the company. These courses have provided me with the skills to respond effectively to disasters, coordinate with agencies through the Incident Command System, and follow the National Incident Management System standards. My training helps the organization meet regulatory requirements, reduce downtime, mitigate risks, and build client and stakeholder confidence by demonstrating a strong commitment to safety, continuity, and operational excellence.",
+
+
+"resumes.title": "Resumes",
+"resumes.subtitle": "Disclosure: This is a public website that is shared across multiple platforms. For my own protection and privacy, my personal phone number has been blurred out. If you would like to reach out to me with any professional inquiries, you may do so via e-mail, my LinkedIn profile, Wechat, or send a message from the contact page. Thank you",
+
+
+"projects.title": "Projects",
+"projects.subtitle": "Previous and Upcoming Work",
+"projects.project1.header": "Puppy Bowl",
+"projects.project1.description": "The objective of this project was to extract the data of each player from the API. Transfer the given data onto the app, where it is visible and functional for the user. This app allows the user to create a new player, add an image, delete any player, and see the details of all players. This project contains the following coding practices: React.js, Element queries, Template and Rendering.",
+"projects.project1.button": "Click Here to View!",
+
+"projects.project2.header": "Authenticator App",
+"projects.project2.description": "I built an authenticator to ensure the users have appropriate permissions to access the app. This project required me to build a backend API that handles the authentication requests. Which also doubled as a secure storage location for usernames and passwords.",
+
+"projects.project3.header": "Digital Portfolio",
+"projects.project3.description": "This project contains the following coding practices: HTML, CSS, and JavaScript. This portfolio is designed to be visually appealing and easy to navigate, with a focus on showcasing my work in a professional manner.",
+
+"projects.project4.img": "Coming Soon",
+"projects.project4.header": "Upcoming Project - Resturant Website",
+"projects.project4.description": "This website was contracted by a client for a new resturant they are opening. The goal for this website is to attract new customers and gain online credibility. The site will include high-quality photos of menu options, an SEO-friendly menu, and an easy-to-use online ordering system.",
+
+"projects.project5.img": "Coming Soon",
+"projects.project5.header": "Upcoming Project - Mobile App",
+"projects.project5.description": "The mobile app will serve as an engaging digital storefront. Including features such as 360 product viewing, and online purchasing.",
+
+
+"contact.title": "Contact",
+"contact.subtitle": "Keep In Touch",
+"contact.header": "Feel free to reach out with any questions or inquiries!",
+"contact.emailLabel": "E-mail:",
+"contact.messageLabel": "Message:",
+"contact.send.button": "Send",
+"contact.success": "Thank you! Your message has been sent successfully!",
+"contact.error": "Sorry, there was an error sending your message. Please try again later."
+}
+

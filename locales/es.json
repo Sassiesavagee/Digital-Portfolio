@@ -1,0 +1,59 @@
+{
+  "welcome.title": "Bienvenido",
+
+  "nav.home": "Inicio",
+  "nav.credentials": "Credenciales",
+  "nav.resumes": "Currículums",
+  "nav.projects": "Proyectos",
+  "nav.contact": "Contacto",
+  "cta.download": "Traducir",
+
+  "welcome.subtitle": "Bienvenido a mi portafolio digital",
+  "welcome.header": "Este portafolio está diseñado para dar a los empleadores potenciales una visión de mi trayectoria profesional, habilidades y proyectos.",
+  "welcome.description1": "Para demostrar mi experiencia y versatilidad como profesional de negocios, he presentado una representación visual de mis credenciales en este sitio. Mi formación académica incluye una licenciatura en Administración de Empresas y una certificación en Desarrollo de Software. Estas cualificaciones me han proporcionado una base sólida en principios empresariales y habilidades técnicas. Además, poseo varias certificaciones de FEMA que demuestran mi competencia en recuperación y preparación ante desastres.",
+  "welcome.description2": "Anteriormente trabajé como especialista en validación de datos, adquiriendo la mayor parte de mi experiencia en la industria de recuperación y preparación ante desastres. Durante este tiempo fui promovido a puestos de liderazgo, donde aprendí a comunicarme como líder, resolver problemas y delegar tareas de manera efectiva según las fortalezas de mi equipo. Mi trabajo requería viajar para reunirme con clientes en nombre de la empresa. También implicaba utilizar diversos sistemas de software para compilar datos en un formato presentable. Esta experiencia se complementó muy bien con mis habilidades tecnológicas. Como desarrollador de software certificado, puedo crear, mejorar y mantener las aplicaciones que impulsan las operaciones comerciales.",
+  "welcome.description3": "En conclusión, quiero que los posibles empleadores no solo revisen mi experiencia y cualificaciones, sino que también consideren mi rango de habilidades. No limitarme a un solo puesto o industria me ha enseñado a aprender rápidamente nuevos materiales, completar tareas con poca o ninguna supervisión y adaptarme fácilmente a nuevos entornos. Dicho esto, quiero agradecerle por tomarse el tiempo de ver mi portafolio y espero que disfrute conocer más sobre mí.",
+
+  "credentials.title": "Credenciales",
+  "credentials.subtitle": "Mis credenciales y su impacto",
+  "credentials.bach.header": "Licenciatura en Administración de Empresas",
+  "credentials.bach.description": "Mi licenciatura en administración de empresas me ha proporcionado habilidades de liderazgo, pensamiento estratégico y resolución de problemas que impulsan el crecimiento y la eficiencia de una empresa. Al comprender cómo las funciones clave del negocio —como finanzas, marketing y operaciones— trabajan juntas, puedo tomar decisiones informadas basadas en datos. También aporto sólidas habilidades de comunicación, una mentalidad emprendedora y adaptabilidad, lo que ayuda a las organizaciones a innovar, optimizar procesos y fomentar una cultura laboral positiva y colaborativa.",
+
+  "credentials.cert.header": "Certificación en Desarrollo de Software",
+  "credentials.cert.description": "Obtener una certificación en desarrollo de software me ha dado una ventaja competitiva al asegurar a las empresas que sus desarrolladores cumplen con estándares reconocidos de calidad, seguridad y eficiencia. Como profesional certificado, aporto procesos estructurados y bien documentados a los proyectos, reduciendo errores, acelerando la entrega y mejorando la mantenibilidad. Esto no solo aumenta la confianza y satisfacción del cliente, sino que también mitiga riesgos como defectos costosos o brechas de seguridad. En última instancia, sirve como un sello de credibilidad que puede atraer nuevos negocios, fortalecer el rendimiento del equipo y proteger la reputación de la empresa.",
+
+  "credentials.fema.header": "Certificaciones de Estudio Independiente de FEMA en Recuperación de Desastres",
+  "credentials.fema.description": "Al completar las certificaciones de estudio independiente de FEMA, aporto una mayor preparación para emergencias, cumplimiento y resiliencia a la empresa. Estos cursos me han brindado las habilidades para responder eficazmente a desastres, coordinar con agencias a través del Sistema de Comando de Incidentes y seguir los estándares del Sistema Nacional de Manejo de Incidentes. Mi capacitación ayuda a la organización a cumplir con los requisitos regulatorios, reducir el tiempo de inactividad, mitigar riesgos y generar confianza en clientes y partes interesadas al demostrar un fuerte compromiso con la seguridad, la continuidad y la excelencia operativa.",
+
+  "resumes.title": "Currículums",
+  "resumes.subtitle": "Aviso: Este es un sitio web público que se comparte en múltiples plataformas. Para mi protección y privacidad, mi número de teléfono personal ha sido difuminado. Si desea contactarme con consultas profesionales, puede hacerlo por correo electrónico, mi perfil de LinkedIn, WeChat o enviar un mensaje desde la página de contacto. Gracias.",
+
+  "projects.title": "Proyectos",
+  "projects.subtitle": "Trabajos anteriores y próximos",
+  "projects.project1.header": "Competencia de Cachorros",
+  "projects.project1.description": "El objetivo de este proyecto fue extraer los datos de cada jugador de la API y transferirlos a la aplicación, donde son visibles y funcionales para el usuario. Esta aplicación permite al usuario crear un nuevo jugador, añadir una imagen, eliminar cualquier jugador y ver los detalles de todos los jugadores. Este proyecto incluye las siguientes prácticas de codificación: React.js, consultas de elementos, plantillas y renderizado.",
+  "projects.project1.button": "¡Haz clic aquí para ver!",
+
+  "projects.project2.header": "Aplicación de Autenticación",
+  "projects.project2.description": "Construí una aplicación de autenticación para garantizar que los usuarios tengan los permisos adecuados para acceder a la aplicación. Este proyecto requirió que construyera una API backend que maneja las solicitudes de autenticación y que también sirviera como almacenamiento seguro para nombres de usuario y contraseñas.",
+
+  "projects.project3.header": "Portafolio Digital",
+  "projects.project3.description": "Este proyecto incluye las siguientes prácticas de codificación: HTML, CSS y JavaScript. Este portafolio está diseñado para ser visualmente atractivo y fácil de navegar, con un enfoque en mostrar mi trabajo de manera profesional.",
+
+  "projects.project4.img": "Próximamente",
+  "projects.project4.header": "Proyecto Próximo - Sitio Web de Restaurante",
+  "projects.project4.description": "Este sitio web fue contratado por un cliente para un nuevo restaurante que están abriendo. El objetivo de este sitio es atraer nuevos clientes y ganar credibilidad en línea. El sitio incluirá fotos de alta calidad de las opciones del menú, un menú optimizado para SEO y un sistema de pedidos en línea fácil de usar.",
+
+  "projects.project5.img": "Próximamente",
+  "projects.project5.header": "Proyecto Próximo - Aplicación Móvil",
+  "projects.project5.description": "La aplicación móvil servirá como una atractiva tienda digital, incluyendo funciones como visualización de productos en 360° y compras en línea.",
+
+  "contact.title": "Contacto",
+  "contact.subtitle": "Mantente en contacto",
+  "contact.header": "¡No dudes en comunicarte con cualquier pregunta o consulta!",
+  "contact.emailLabel": "Correo electrónico:",
+  "contact.messageLabel": "Mensaje:",
+  "contact.send.button": "Enviar",
+  "contact.success": "¡Gracias! Tu mensaje ha sido enviado con éxito.",
+  "contact.error": "Lo sentimos, hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde."
+}
