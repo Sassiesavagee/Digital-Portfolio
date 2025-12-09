@@ -73,9 +73,13 @@ main{
     font-size: large;
     font-style:oblique;
     text-align:center;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    /*margin-top: 5%;*/
 }
 
 .Credentials-header{
@@ -96,11 +100,13 @@ section.Credentials-card{
     padding: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.308);
     flex: 1 1 200px; 
-    height: 600px;
-    width: 880px;
+    height: auto;
+    width: 90%;
+    max-width: 800px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    margin-left: 24.5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Credentials-card:hover {
@@ -109,9 +115,9 @@ section.Credentials-card{
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.308);
   cursor: pointer;
   
-  scrollbar-width: thin;
+ /* scrollbar-width: thin;
   overflow-x: hidden;
-  overflow-y:scroll;
+  overflow-y:scroll;*/
 }
 
 .Credentials-text{
@@ -211,20 +217,26 @@ h4{
 }
 
 #welcome-header{
-    margin-bottom: 1%;
-    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 #welcome-description{
     font-size: 1.8rem;
     text-align: justify;
-    display: inline-table;
+    margin: 0.5em auto;
+    padding: 0 2rem;
+    max-width: 1900px;
+    width: 100%;
+    box-sizing: border-box;
+
+    /*display: inline-table;
     margin-block-start: .5em;
     margin-block-end: 1em;
     margin-inline-start: 0vw;
     margin-inline-end: 0vw;
     margin-left: 10rem;
-    margin-right: 10rem;
+    margin-right: 10rem;*/
 }
 
 object{
@@ -256,28 +268,48 @@ object{
 }
 
 div.Projects-container{
-  column-count: 2;
+ /* column-count: 2;*/
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
-  margin-top: 5%;
+
+  /*grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));*/
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5% auto;
+  max-width: 1200px;
+  grid-auto-rows: auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+
+ /* margin-top: 5% auto;
   margin-left: 18%;
-  margin-right: 18%;
-  gap: 25px;
+  margin-right: 18%;*/
+  gap: 30px;
+  column-gap: 70px;
 }
 
 section.Projects-card{
     text-align: left;
-    position: center;
+    /*position: center;*/
     background-color: #f0f0f0;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.308);
-    flex: 1 1 200px; 
+    /*flex: 1 1 200px; */
     height: auto;
-    width: auto;
+    width: 100%;
     overflow: hidden;
     transition: transform 0.3s ease;
+    margin: 0 auto;
     /*margin-left: 24.5%;*/
+}
+
+/* responsive: single column on small screens */
+@media (max-width: 768px) {
+  div.Projects-container {
+    grid-template-columns: 1fr;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 16px;
+  }
 }
 
 section.Projects-card:hover {
@@ -341,8 +373,11 @@ transition: transform 0.3s ease;
 }
 
 form{
-    margin-top: 1%;
-    margin-bottom: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
     text-align: center;
     font-size: 1.8rem;
     position: center;
@@ -433,3 +468,74 @@ footer{
     transition: transform 0.3s ease;
 }
 
+/* Tablet & smaller */
+@media (max-width: 1024px) {
+  nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 2rem;
+  }
+  
+  #links {
+    flex-basis: 100%;
+    margin-top: 1rem;
+  }
+  
+  section.Credentials-card {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+  }
+  
+  #welcome-description {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem;
+    font-size: 1em;
+  }
+  
+  #logo img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  :any-link {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  
+  form {
+    width: 95%;
+    height: auto;
+  }
+  
+  #welcome-description {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  section.Credentials-card {
+    width: 95%;
+    margin-left: 2.5%;
+    height: auto;
+  }
+  
+  div.Projects-container {
+    grid-template-columns: 1fr;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}

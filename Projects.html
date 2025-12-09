@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="projects.title">Projects</title>
-    
+    <style>
+  body {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  body.fade-in {
+    opacity: 1;
+  }
+</style>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -117,7 +126,11 @@ loadLocale("en");
 </main>
 
 
-
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.classList.add("fade-in");
+  });
+</script>
 
 </body>
 </html>
