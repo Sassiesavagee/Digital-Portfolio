@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="welcome.title">Welcome</title>
-    
+    <style>
+  body {
+    opacity: 0;                 /* start invisible */
+    transition: opacity 1s ease; /* fade-in duration */
+  }
+
+  body.fade-in {
+    opacity: 1;                 /* end fully visible */
+  }
+</style>
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
 </head>
 
 <body>
@@ -36,7 +44,6 @@
     <option value="ja">日本語</option>
     <option value="it">Italiano</option>
   </select>
-
 
     </nav>
   </header>
@@ -116,3 +123,9 @@ loadLocale("en");
 
 </body>
 </html>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.classList.add("fade-in");
+  });
+</script>
