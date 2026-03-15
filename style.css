@@ -137,7 +137,6 @@ section.Credentials-card{
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s ease;
-
 }
 
 iframe{
@@ -174,6 +173,19 @@ iframe{
   justify-content: center;
 }
 
+#CPR-img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.CPR-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #left-arrow{
   width: 24px;
   height: 24px;
@@ -202,6 +214,17 @@ position: relative;
 }*/
 
 #prev-btn, #next-btn {
+  width: 40px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#CPR-prev-btn, #CPR-next-btn {
   width: 40px;
   height: 35px;
   background-color: transparent;
